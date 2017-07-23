@@ -1,28 +1,41 @@
-# WdWeatherApp
+# Angular 4 Weather App using OpenWeather API
+
+[Demo Here](http://nameless-retreat-10152.herokuapp.com/)
+
+A basic weather application written in Angular 4 and Bootstrap to show the weather forecast for next 5 days.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Development server
+### Installation for local
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[Angular CLI](https://cli.angular.io/) requires [Node.js](https://nodejs.org/) v6+ to run.
+ - Clone this project from github
+  - Make sure Node v6+ is installed
+  - Install angular-cli package globally using below command
+ ```sh
+$ npm install -g @angular/cli
+```
+  - cd into the directory of the project using your favourite terminal
+  - Run below command to download dependenices required for the project
+```sh
+$ npm install
+```
+ - Once installaton is done then run the command **npm start** to run the project and then navigate to http://localhost:4200 in any browser
 
-## Code scaffolding
+### Other Useful Commands
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+| Command | Use |
+| ------ | ------ |
+| npm run lint | To run linter |
+| npm run test | To run tests |
+| npm run build | To make a development build |
+| npm run build:prod | To make a production build |
 
-## Build
+### Future Enhancements / Todos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+ - Add More Tests
+ - Add location search functionality
+ - Get users location from browser
+ - Add PWA compatibilty
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
