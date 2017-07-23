@@ -1,0 +1,7 @@
+<h1>{{city}}</h1>
+<h2>{{today}}</h2>
+<div class="row wd-mt-15">
+  <div class="col-md-2" *ngFor="let result of weatherResults | slice:0:6">
+    <wd-weather-details [weatherData]="result"></wd-weather-details>
+  </div>
+</div>
